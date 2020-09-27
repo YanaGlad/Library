@@ -8,7 +8,7 @@ public class Application {
     public static void main(String[] args) throws IOException {
         LibraryFactory libraryFactory = new LibraryFactory();
         //Библиотека для примера
-        libraryFactory.addLibrary("C:\\Users\\glad\\Desktop\\Projects\\core — копия\\src\\main\\resources\\library.txt");
+        libraryFactory.addLibrary("C:\\Users\\glad\\Desktop\\Projects\\library4\\controllers\\src\\main\\resources\\library.txt");
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String authorName = bufferedReader.readLine();
