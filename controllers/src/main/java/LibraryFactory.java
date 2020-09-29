@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -8,7 +10,7 @@ public class LibraryFactory {
         libraries = new ArrayList<>();
     }
 
-    public void addLibrary(String path) throws IOException {
+    public void addLibrary(@NotNull String path) throws IOException {
         libraries.add(new Library(path));
     }
 
